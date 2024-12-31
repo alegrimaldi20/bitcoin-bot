@@ -36,7 +36,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Función principal para ejecutar el bot
 def main():
     # Reemplaza con el token de tu bot
-    application = Application.builder().token("7993918602:AAHPZjOTbjHw9h7F3Z8XseFP6upbR4dRe_w").build()
+    application = Application.builder().token("").build()
 
     # Registrar los comandos /start y /precio
     application.add_handler(CommandHandler("start", start))
